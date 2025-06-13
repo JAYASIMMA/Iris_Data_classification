@@ -64,8 +64,12 @@ streamlit run iris_app.py
 ---
 
 ## 📷 Preview
+![Sc![Screenshot 2025-06-13 212551](https://github.com/user-attachments/assets/cdf114e2-dff0-4c39-9855-00a450bbdd18)
+reenshot 2025-06-13 212610](https://github.com/user-attachments/assets/34ca0e0d-4812-424f-ab30-91f0bb20d130)
+![Screenshot 2025-06-13 212449](https://github.com/user-attachments/assets/8f49bd03-6f94-479f-8bb3-9957c72d77b3)
+![Screenshot 2025-06-13 212449](https://github.com/user-attachments/assets/b70d062d-3769-465e-ac72-3dd430772d08)
+![Screenshot 2025-06-13 212423](https://github.com/user-attachments/assets/8bfe0eee-729c-4e7b-831f-3e2d0e9f262b)
 
-![screenshot](https://user-images.githubusercontent.com/your-username/iris-app-preview.png)
 
 ---
 
