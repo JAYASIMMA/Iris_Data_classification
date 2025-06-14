@@ -13,16 +13,13 @@ from sklearn.metrics import accuracy_score, mean_squared_error, mean_absolute_er
 st.set_page_config(layout="wide")
 st.title("🌸 Iris Species Classification App")
 
-# Load and prepare the data
 iris = load_iris()
 df = pd.DataFrame(data=iris.data, columns=iris.feature_names)
 df["species"] = iris.target
 df["species"] = df["species"].map(dict(enumerate(iris.target_names)))
 
-# Sidebar: Choose view
 option = st.sidebar.selectbox("Choose Section", ["Dataset Overview", "Visualizations", "Model Training", "Make Predictions"])
 
-# Sidebar for model training
 st.sidebar.markdown("---")
 st.sidebar.header("Prediction Input")
 sepal_length = st.sidebar.slider("Sepal Length (cm)", 4.0, 8.0, 5.1)
@@ -52,7 +49,6 @@ mae = mean_absolute_error(y_test_enc, y_pred_enc)
 conf_matrix = confusion_matrix(y_test, y_pred)
 report = classification_report(y_test, y_pred, output_dict=True)
 
-# Sections
 if option == "Dataset Overview":
     st.subheader("Iris Dataset")
     st.dataframe(df.head())
